@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\WeaponController.cs" />
+    <Compile Include="Assets\attackBeh.cs" />
     <Compile Include="Assets\Scripts\IkLook.cs" />
     <Compile Include="Assets\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
