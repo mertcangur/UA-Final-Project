@@ -30,7 +30,7 @@ public class enemyAI : MonoBehaviour
     {
         distance = Vector3.Distance(transform.position, target.position);
 
-        // Eðer düþman karakter hedefe 10 birimlik bir mesafede ise, hareketi durdurun
+        
         if (distance < 2)
         {
             if(canChange)

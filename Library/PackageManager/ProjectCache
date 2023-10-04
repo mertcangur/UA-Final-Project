@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638319482413635444
-    m_Hash: 1796250974
+      ticks: 638320160369488712
+    m_Hash: 309490457
   m_LockFileStatus:
     m_FilePath: "C:/Users/mngr5/OneDrive/Masa\xFCst\xFC/new_repo/UA-Final-Project/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638319482966184650
-    m_Hash: 3219080454
+      ticks: 638320160369616477
+    m_Hash: 1714730609
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -188,6 +188,7 @@ m_ResolvedPackages:
     - 3.0.0-pre.6
     - 3.0.0-pre.7
     - 3.0.0-pre.8
+    - 3.0.0-pre.9
     compatible:
     - 2.9.5
     - 2.9.7
@@ -197,6 +198,7 @@ m_ResolvedPackages:
     - 3.0.0-pre.6
     - 3.0.0-pre.7
     - 3.0.0-pre.8
+    - 3.0.0-pre.9
     recommended: 2.9.7
     deprecated: []
   dependencies:
@@ -942,6 +944,144 @@ m_ResolvedPackages:
   - graphics
   - performance
   - rendering
+  - render
+  - pipeline
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 14.0.8
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.universal@14.0.8
+  testable: 0
+  isDirectDependency: 1
+  version: 14.0.8
+  source: 2
+  resolvedPath: "C:\\Users\\mngr5\\OneDrive\\Masa\xFCst\xFC\\new_repo\\UA-Final-Project\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.8"
+  assetPath: Packages/com.unity.render-pipelines.universal
+  name: com.unity.render-pipelines.universal
+  displayName: Universal RP
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
+    Pipeline, made by Unity. URP provides artist-friendly workflows that let you
+    quickly and easily create optimized graphics across a range of platforms, from
+    mobile to high-end consoles and PCs.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.14
+    - 9.0.0-preview.35
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.26
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
+    compatible:
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.render-pipelines.core
+    version: 14.0.8
+  - name: com.unity.shadergraph
+    version: 14.0.8
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.burst
+    version: 1.8.7
+  - name: com.unity.render-pipelines.core
+    version: 14.0.8
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.shadergraph
+    version: 14.0.8
+  - name: com.unity.searcher
+    version: 4.9.2
+  keywords:
+  - graphics
+  - performance
+  - rendering
+  - mobile
   - render
   - pipeline
   registry:
