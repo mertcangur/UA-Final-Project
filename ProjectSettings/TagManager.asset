@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - cam
+  - sword
+  - enemy
   layers:
   - Default
   - TransparentFX
