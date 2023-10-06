@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Move.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Luminaris Starship\Documentation\Readme Luminaris.txt" />
     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
