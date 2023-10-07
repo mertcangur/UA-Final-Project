@@ -34,6 +34,7 @@ public class Move : MonoBehaviour
 
     void Start()
     {
+       
         anim = GetComponent<Animator>();
         mainCam = Camera.main;
         normalFov = mainCam.fieldOfView;
@@ -42,7 +43,6 @@ public class Move : MonoBehaviour
 
     private void LateUpdate()
     {
-
 
         InputMove();
         InputRotation();

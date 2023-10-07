@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class forSword : MonoBehaviour
 {
-
+    public GameObject canDamage;
+    bool sword;
     bool canHit = true;
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("enemy") && canHit)
+        sword = canDamage.gameObject.GetComponent<WeaponController>().can_attack;
+        
+        if(other.CompareTag("enemy") && canHit && !sword)
         {
             canHit = false;
             StartCoroutine(other.gameObject.GetComponent<enemyAI>().takeHit(50));
@@ -18,7 +21,7 @@ public class forSword : MonoBehaviour
     }
     IEnumerator attacckDelay()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         canHit = true;
         yield return null;
     }

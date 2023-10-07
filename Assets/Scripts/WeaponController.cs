@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    bool can_attack = true;
+    public bool can_attack = true;
     bool isStrafe = false ;
     Animator anim;
+    private AudioSource audioS;
 
+    public AudioClip slashClip;
     public GameObject handWeapon;
     public GameObject backWeapon;
     private void Start()
     {
-        anim = GetComponent<Animator>();  
+        anim = GetComponent<Animator>();
+        audioS = GetComponent<AudioSource>();
     }
+    public IEnumerator slashAudio()
+    {
+        can_attack = false;
+        yield return new WaitForSeconds(0.7f);
+        audioS.PlayOneShot(slashClip);
+        can_attack = true;
+    }
+
     void Update()
     {
         anim.SetBool("iS", isStrafe);
@@ -21,7 +32,7 @@ public class WeaponController : MonoBehaviour
         {
             isStrafe = !isStrafe;
         }
-        else if(Input.GetKeyDown(KeyCode.Mouse0) && isStrafe && can_attack)
+        else if(Input.GetKeyDown(KeyCode.Mouse0) && isStrafe )
         {
             anim.SetTrigger("attack");
         }
