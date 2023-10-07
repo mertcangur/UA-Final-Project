@@ -58,9 +58,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\SimpleAirPlaneController.cs" />
+    <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\SimpleAirPlaneCollider.cs" />
     <Compile Include="Assets\attackBeh.cs" />
     <Compile Include="Assets\Scripts\doorOpen.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayRandomSound.cs" />
+    <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\LandingArea.cs" />
     <Compile Include="Assets\Scripts\forSword.cs" />
     <Compile Include="Assets\Scripts\enemyAI.cs" />
     <Compile Include="Assets\Scripts\IkLook.cs" />
@@ -68,13 +71,18 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
+    <Compile Include="Assets\Scripts\level1exit.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\MouseComponent.cs" />
+    <Compile Include="Assets\Scripts\ForScence.cs" />
+    <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\RunwayUIManager.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\WeaponController.cs" />
+    <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\SimpleAirplaneCamera.cs" />
     <Compile Include="Assets\Scripts\audiosManager.cs" />
+    <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\Runway.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Sci Fi Modular Pack\Scripts\CameraController.cs" />
     <Compile Include="Assets\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
