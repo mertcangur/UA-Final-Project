@@ -400,6 +400,7 @@
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PlayRandomSound.cs"
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs"
 "Assets/Scripts/audiosManager.cs"
+"Assets/Scripts/camTurn.cs"
 "Assets/Scripts/clickAudio.cs"
 "Assets/Scripts/doorOpen.cs"
 "Assets/Scripts/enemyAI.cs"
