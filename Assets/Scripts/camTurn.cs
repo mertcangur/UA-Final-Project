@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class camTurn : MonoBehaviour
 {
     AudioSource audioS;
+    bool isPlayed = true;
 
     private void Start()
     {
@@ -13,7 +14,9 @@ public class camTurn : MonoBehaviour
     }
     public void firstScence()
     {
-        audioS.PlayOneShot(audioS.clip);
+        if(isPlayed)
+            audioS.PlayOneShot(audioS.clip);
+        isPlayed = false;
         SceneManager.LoadScene("firstLevel");
     }
 
