@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\level1exit.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\MouseComponent.cs" />
     <Compile Include="Assets\Scripts\ForScence.cs" />
+    <Compile Include="Assets\Scripts\To last.cs" />
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\RunwayUIManager.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
@@ -82,12 +83,14 @@
     <Compile Include="Assets\Scripts\WeaponController.cs" />
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\SimpleAirplaneCamera.cs" />
     <Compile Include="Assets\Scripts\audiosManager.cs" />
+    <Compile Include="Assets\Scripts\gate.cs" />
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\Runway.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Sci Fi Modular Pack\Scripts\CameraController.cs" />
     <Compile Include="Assets\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\clickAudio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UnityTechnologies\ParticlePack\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -759,6 +762,9 @@
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -795,6 +801,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -821,6 +830,9 @@
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -855,6 +867,9 @@
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
@@ -873,14 +888,14 @@
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
