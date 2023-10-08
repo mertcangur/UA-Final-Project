@@ -10,8 +10,7 @@ public class level1exit : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("asdasd");
-            //SceneManager.LoadScene();
+            SceneManager.LoadScene("secondScence");
         }
     }
 }

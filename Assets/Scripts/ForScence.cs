@@ -8,8 +8,7 @@ public class ForScence : MonoBehaviour
 {
     private void Start()
     {
-        //SceneManager.LoadScene();
-        Debug.Log("adads");
+        SceneManager.LoadScene("firstLevel2");
     }
 
 

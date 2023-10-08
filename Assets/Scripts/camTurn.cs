@@ -14,19 +14,19 @@ public class camTurn : MonoBehaviour
     public void firstScence()
     {
         audioS.PlayOneShot(audioS.clip);
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene("firstLevel");
     }
 
     public void toOption()
     {
         audioS.PlayOneShot(audioS.clip);
-        Debug.Log("pressed to option");
+        //Debug.Log("pressed to option");
     }
 
     public void toExit()
     {
         audioS.PlayOneShot(audioS.clip);
-        Debug.Log("pressed to exit");
+        Application.Quit();
 
     }
 

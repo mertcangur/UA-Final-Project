@@ -9,7 +9,7 @@ public class Tolast : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            //SceneManager.LoadScene();
+            SceneManager.LoadScene("spaceShip");
         }
     }
 }

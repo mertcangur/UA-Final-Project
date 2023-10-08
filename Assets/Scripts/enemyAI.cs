@@ -25,6 +25,8 @@ public class enemyAI : MonoBehaviour
 
     public AudioClip clip;
 
+    public AudioClip painDamage;
+
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +72,7 @@ public class enemyAI : MonoBehaviour
         agent.isStopped = true;
         anim.SetTrigger("take damage");
         blood.Play();
+        audioS.PlayOneShot(painDamage);
         yield return new WaitForSeconds(1f);
         health -= damage;
         agent.isStopped = false;

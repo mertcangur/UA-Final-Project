@@ -61,6 +61,7 @@
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\SimpleAirPlaneController.cs" />
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\SimpleAirPlaneCollider.cs" />
     <Compile Include="Assets\attackBeh.cs" />
+    <Compile Include="Assets\Scripts\gameFinish.cs" />
     <Compile Include="Assets\Scripts\doorOpen.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayRandomSound.cs" />
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\LandingArea.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\HeneGames\Simple Airplane Controller\Scripts\RunwayUIManager.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
+    <Compile Include="Assets\Scripts\ToCutScence.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\WeaponController.cs" />

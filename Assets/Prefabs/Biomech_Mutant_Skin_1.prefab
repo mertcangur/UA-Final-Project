@@ -99,6 +99,7 @@ MonoBehaviour:
   distance: 3
   blood: {fileID: 1853706369814383676}
   clip: {fileID: 8300000, guid: 88671a702de8ab04aafbe9d395908d55, type: 3}
+  painDamage: {fileID: 8300000, guid: d6bef4b6b99299d40836e1b8ad6b25c6, type: 3}
 --- !u!136 &300265839950458622
 CapsuleCollider:
   m_ObjectHideFlags: 0
